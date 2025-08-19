@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeamFixIT | Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+    <!-- Navbar -->
+    <nav class="bg-blue-900 text-white shadow-md">
+      <div class="container mx-auto flex justify-between items-center p-4">
+        <a href="index.html" class="text-xl font-bold">TeamFixIT</a>
+        <div class="space-x-6">
+          <a href="index.html" class="hover:text-gray-300">Home</a>
+          <a href="project.html" class="hover:text-gray-300">Project</a>
+          <a href="team.html" class="hover:text-gray-300">Team</a>
+          <a href="contact.html" class="hover:text-gray-300">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Project Info -->
+    <section class="container mx-auto py-16 px-6">
+      <h1 class="text-4xl font-bold mb-8 text-center">Port Scanning & Delta Reporting</h1>
+
+      <div class="space-y-8 max-w-4xl mx-auto">
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">Problem Statement</h2>
+          <p>
+            Modern Enterprise networks are complex, and management is performed by multiple parties.
+            Ongoing port scanning of key subnets, from inside and outside of the Enterprise, is
+            required. Alerts to key ports, or multiple open ports, will assist in addressing
+            security issues before they become a vector for attack.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">Objectives</h2>
+          <ul class="list-disc list-inside space-y-2">
+            <li>Scan Murdoch IP addresses from inside and outside the Enterprise Network</li>
+            <li>Record open ports</li>
+            <li>Provide delta reports periodically</li>
+            <li>Develop an alerting service based on important ports or sudden exposure</li>
+            <li>Develop a management web tool to present reports and management functions</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">Expected Outcomes</h2>
+          <ul class="list-disc list-inside space-y-2">
+            <li>Management tool for scan & detection system</li>
+            <li>Instructions to operate</li>
+            <li>System diagrams & requirements document</li>
+            <li>VM image of final operational product</li>
+            <li>Training session on product usage</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">Optional Extras</h2>
+          <ul class="list-disc list-inside space-y-2">
+            <li>API scanning and logging</li>
+            <li>API deltas – for exposure/access recording</li>
+            <li>API alerting</li>
+            <li>IPv6 scanning & alerting</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white text-center py-4 mt-auto">
+      <p>© 2025 TeamFixIT | Murdoch University Students</p>
+    </footer>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
